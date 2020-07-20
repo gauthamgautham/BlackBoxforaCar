@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title_of_project"
+        style="@style/CategoryStyle"
+        android:background="@android:color/background_light"
+        android:text="@string/category_Title"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="80dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/path"
+        style="@style/CategoryStyle"
+        android:background="@color/category_path"
+        android:text="@string/category_path"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_margin="25dp"
+        />
+
+    <TextView
+        android:id="@+id/performance"
+        style="@style/CategoryStyle"
+        android:background="@color/category_performance"
+        android:text="@string/category_performance"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_margin="25dp"/>
+
+    <TextView
+        android:id="@+id/one"
+        style="@style/CategoryStyle"
+        android:background="@color/category_button1"
+        android:text="@string/category_team"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_margin="25dp"/>
+
+
+
+</LinearLayout>
